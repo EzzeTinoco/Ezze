@@ -1,0 +1,38 @@
+@font-face {
+    font-family: DancingScript-VariableFont_wght;
+    src: url(./DancingScript-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(109, 100, 52, 0.664);
+}
+.Tituloindex{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    display: flex;
+    border: 1px solid black;
+    background-image: url(./img/Imagenes\ productos/Background.png);
+}
+h1{
+    font-family: DancingScript-VariableFont_wght;
+    padding-top: 6px;
+    padding-left: 6px;
+    font-size: 4rem;
+}
+#Iconoindex{
+    padding-left: 10px;
+    width: 8rem ;
+    height: 6rem;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding-right: 45rem;
+}
